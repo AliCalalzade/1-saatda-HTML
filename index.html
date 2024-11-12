@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 saatda html</title>
+</head>
+
+<body>
+    <center>
+        <!-- p tagı -->
+        <p>1 saatda html</p>
+        <strong>1 saatda html</strong>
+        <b>1 saatda html</b>
+        <i>1 saatda html</i>
+        <mark>1 saatda html</mark>
+        <hr>
+        <br>
+        <!-- header tagları -->
+        <h1>1 saatda html</h1>
+        <h2>1 saatda html</h2>
+        <h3>1 saatda html</h3>
+        <h4>1 saatda html</h4>
+        <h5>1 saatda html</h5>
+        <h6>1 saatda html</h6>
+        <!-- img taglar -->
+        <img src="./src/resim.jpg" alt="rəsim tapılmadı">
+        <!-- a elementi -->
+        <a href="https://www.youtube.com" target="_blank">link</a>
+    </center>
+    <!-- ordinary və anordinary listlər -->
+    <ol type="1">
+        <li>çay</li>
+        <ol type="a">
+            <li>şəkərli</li>
+            <li>şəkərsiz</li>
+        </ol>
+        <li>qəhvə</li>
+        <li>su</li>
+    </ol>
+    <!-- table -- tablo -->
+    <table border="2px">
+        <!-- sətir -->
+        <tr>
+            <th colspan="3">tablo</th>
+        </tr>
+        <tr>
+            <th rowspan="3">ad</th>
+            <th>soyad</th>
+            <th>yaş</th>
+        </tr>
+        <tr>
+            <td>calalzadə</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>fərəcli</td>
+            <td>14</td>
+        </tr>
+    </table>
+    <!-- Div -->
+    <div style="width: 100px;height: 200px;background-color: red;">
+
+    </div>
+    <!-- Form -->
+    <form>
+        <input type="radio" placeholder="adınızı yazın " name="cins">
+        <span>kişi</span>
+        <br>
+        <input type="radio" placeholder="adınızı yazın " name="cins">
+        <span>qadın</span>
+        <br>
+        <input type="email" placeholder="adınızı yazın ">
+        <input type="file"><br><br><br>
+        <input type="date">
+        <input type="submit">
+        <select name="cins">
+            <option value="kişi">kişi</option>
+            <option value="qadın" disabled>qadın</option>
+        </select>
+    </form>
+    <!-- video -->
+    <video width="200" height="600" autoplay controls muted>
+        <source src="./src/shorts-14.mp4" type="video/mp4">
+    </video>
+    <!-- iframe -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4wZ3Cp2l2a4?si=yO6dre_sV21rHYNx"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- audio -->
+    <audio src="./src/react-native-ile-ilk-uyqulama.mp3" controls muted></audio>
+</body>
+
+</html>
